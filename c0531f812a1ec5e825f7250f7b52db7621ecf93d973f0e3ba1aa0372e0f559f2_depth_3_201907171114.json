@@ -1,0 +1,228 @@
+{
+  "id": "c0531f812a1ec5e825f7250f7b52db7621ecf93d973f0e3ba1aa0372e0f559f2",
+  "type": "file",
+  "children": [
+    {
+      "id": "0146a167e27d4245a1843f2e583f024d36ae9760faf94aa95ab2c751b99806b1",
+      "type": "file",
+      "relation": "VT: file to execution parent",
+      "children": [
+        {
+          "id": "111.90.158.225",
+          "type": "ip_address",
+          "relation": "VT: file to contacted ip",
+          "children": [
+            {
+              "id": "ae74a671f376fbe12bc09bc77a7e81a754ece5267bb9e481f691210aba7e8f89",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "65de00e9f262ff62c91c5ec494cb399b8a1de349e05e5dd2d3bd90006d3f141e",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "45b96f3d8b6a7e9225485d42dedf7fe6f164405707668d8a40f35a52b9130b23",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "1ecb94b101c6229a60475748fee4ecbf656e6d77722d7b422378d47c9510d293",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "a0f65bb0de9caddcc1d31e65f7184677909ab2ebffd5a28aed91a5f7cca15cff",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "8ab9de549f6d824b2b02971c8c98aa035719e10fd8c784e8a79f672d8a93582a",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "fc245df4f5feeabe28bac64949a502ea9d431d9c648b45e5042ec5e77da68278",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "f3b5aa8c014cf9fbb35062a663cd40d5e845a98e48819a3f488755d0ba6f08b1",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "97f9c8f59717c376c334e955737f8d1d94375f5692a4a062c06ba5511fa561a4",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "bfc55c309f7d7573fe1c8e693c6645b755033bd45bf1c4586ff485c7484290a3",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            }
+          ]
+        },
+        {
+          "id": "107.179.65.195",
+          "type": "ip_address",
+          "relation": "VT: file to contacted ip",
+          "children": [
+            {
+              "id": "987a46bb093ccd4d23b6fee98474a00557a2ce4c531f294e57091f455435c928",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "bfc55c309f7d7573fe1c8e693c6645b755033bd45bf1c4586ff485c7484290a3",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "cdf9d8eee8c4fe967fac3aa9218a7227647ae7aaaa4221c688e1aab7a9180f69",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            }
+          ]
+        },
+        {
+          "id": "23.247.83.135",
+          "type": "ip_address",
+          "relation": "VT: file to contacted ip"
+        },
+        {
+          "id": "111.90.158.224",
+          "type": "ip_address",
+          "relation": "VT: file to contacted ip",
+          "children": [
+            {
+              "id": "ae74a671f376fbe12bc09bc77a7e81a754ece5267bb9e481f691210aba7e8f89",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "9278d16ed2fdcd5dc651615b0b8adc6b55fb667a9d106a9891b861d4561d9a24",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            },
+            {
+              "id": "2c92d62d55c5949f7087c3e309644399ccaea198ea6645919ec9db347c7b9437",
+              "type": "file",
+              "relation": "VT: IP to downloaded file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4d935d56592d4a5513dd6e4182aaec3422205dc9d8dcc4f17eaa7a6b194b9624",
+      "type": "file",
+      "relation": "VT: file to execution parent",
+      "children": [
+        {
+          "id": "111.90.158.225",
+          "type": "ip_address",
+          "relation": "VT: file to contacted ip"
+        },
+        {
+          "id": "9e7506cba90222f6a786387832a419d4f680faddc9cde8e784cd93577b88dc66",
+          "type": "file",
+          "relation": "VT: file to execution parent",
+          "children": [
+            {
+              "id": "111.90.158.225",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "111.90.158.224",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.0",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.1",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.2",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.3",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.4",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.5",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.6",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "10.0.0.7",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "f3b5aa8c014cf9fbb35062a663cd40d5e845a98e48819a3f488755d0ba6f08b1",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "d7ab78ce470e7e7f745d06f364a88c3e8b04cc649324380497d9faf4aa93c009",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "f6d6708d1ff12797129295fc4b7e8a0790ca2ecb7a5ac8a2df2a5ab8b8ff7efd",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "c7b0383d57f62498d27ff8b673d4b3ccac9836f82931aa0f48f84e7edb093d58",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "83afed2247fd1edf14593c15d4111c181179f75b163c5ea5a1db7a30f2cbf5ae",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "4474c94a893c04db25155caa0b7410dee4a1993c41f292620ed4d81b97c05d3e",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "6f69d97a8407fe9bab7cbb068386e7af2ff805d9509c0061c876a94d30a3f809",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "2931d33d746ee5d9301fcb51863a60ca510e8fe4538c0efaaddc35d3da514b84",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

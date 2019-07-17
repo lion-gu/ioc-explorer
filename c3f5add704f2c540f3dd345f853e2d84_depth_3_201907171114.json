@@ -1,0 +1,283 @@
+{
+  "id": "c3f5add704f2c540f3dd345f853e2d84",
+  "type": "file",
+  "children": [
+    {
+      "id": "86.106.93.230",
+      "type": "ip_address",
+      "relation": "VT: file to contacted ip",
+      "children": [
+        {
+          "id": "f6bf8088338180e1bd8f8fb878798627efb96ec2547fea4800983a2af346a853",
+          "type": "file",
+          "relation": "VT: IP to downloaded file",
+          "children": [
+            {
+              "id": "6471a9ce27b911413cad59b5bc9b569ce9102395e63f8b51c89caac6076bbea4",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            }
+          ]
+        },
+        {
+          "id": "7ec4aa7ccf17892e10064d38b0d2eb9e86cd667af2f018638a3935e0d4d5f160",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "54186b22560ff9f1faee2a802874d5366a8e397c4779648a27f5fb9d3a6785fe",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "978ea3e7e800bd7871919098cd03e50e79efee28acf66b3df34746b9fb6a7526",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "e1c67c166eec69079b8cd5d9cb134aa0f42f2c097a7cb24cf317b04fead27ec8",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "74625e8221ecd9281220ca042a0a991d2281fe2214f9e27be4194d3c596b3ee8",
+          "type": "file",
+          "relation": "VT: IP to downloaded file",
+          "children": [
+            {
+              "id": "208.91.197.13",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "148.66.136.190",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "198.57.199.56",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "212.1.211.181",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "154.208.235.97",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "96.62.7.155",
+              "type": "ip_address",
+              "relation": "VT: file to contacted ip"
+            },
+            {
+              "id": "www.angletradings.com",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            },
+            {
+              "id": "www.download.windowsupdate.com",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            },
+            {
+              "id": "www.mdyasin.com",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            },
+            {
+              "id": "www.ivpnsymposium.org",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            },
+            {
+              "id": "www.valteragrupa.com",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            },
+            {
+              "id": "prosaledom.su",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            },
+            {
+              "id": "www.arammatrimony.in",
+              "type": "domain",
+              "relation": "VT: file to contacted domain"
+            }
+          ]
+        },
+        {
+          "id": "8b1068cb9a6fb6b9c3813dc920608bf850dbe397ba9b040b009e74fc1ba382d3",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "db04c81d6ac0d620bc587d69a5825c6c09e4b3d2bce986e4fff63afc638b3dc8",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "def56d664e202d0a6a51a0a28e102bf4a500463f301312ad371380cbb6d70dec",
+          "type": "file",
+          "relation": "VT: IP to downloaded file"
+        },
+        {
+          "id": "b05c63a25e3541fe0773f15f5d5b9ea43a4b1b4773c957bdacffbab6bcc84c46",
+          "type": "file",
+          "relation": "VT: IP to downloaded file",
+          "children": [
+            {
+              "id": "3a3a27db08a33f5123a7982440180a621ce13903aa08d801ff08234f49af47e9",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "47c21dd3eb16107a8bfd2ae9f01a875e304a489a0c9779980e26db0be2d0d17c",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "b75f46e19caac819974fa7e59606b4d8d55fb63f4e1270c6686074e7c3d5a840",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "476eb8897ca499fd2ed6d11e1b8cd3aa01f1c5780e7dec42a1f13d7e4a5afbcc",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "b44872e5e11ca13c0db360b52e1455d697112267cfc7026ddeb893e5fa28a9b7",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "22b32dd5593c3702a6113ff2d274720f0ead1f535ee1d787ddcdeda72b935f32",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "df33cbdaaee86944bf474aedacd2d61af666d825425d6258af8764a3895235d2",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "236cc61e28dde445f2f215a8a4616fec67be62dc3758edac4e84bb0a4c0680fd",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "bf1afecd30fe8fdc1ddb897a90e95ab35dde0191461b5fb8e572df63ab9c71bf",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            },
+            {
+              "id": "016c78b035d6d0d06de993b0d39108e504ddeb75f4710d40c897dcaf87d6b512",
+              "type": "file",
+              "relation": "VT: file to execution parent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nethosttalk.com",
+      "type": "domain",
+      "relation": "VT: file to contacted domain",
+      "children": [
+        {
+          "id": "86.106.93.230",
+          "type": "ip_address",
+          "relation": "QAX: domain to resolution ip"
+        },
+        {
+          "id": "123.59.120.219",
+          "type": "ip_address",
+          "relation": "QAX: domain to resolution ip"
+        },
+        {
+          "id": "info@qhoster.com",
+          "type": "email",
+          "relation": "QAX: domain to whois email",
+          "children": [
+            {
+              "id": "stdfile.org",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "4uid.net",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "smartcoinminers.com",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "navsitar.com",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "ir1x.net",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "mybecoma.com",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "parsib90.net",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "cliniqueambassadeurs.com",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "revenuehyip.com",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            },
+            {
+              "id": "sahugroups.com",
+              "type": "domain",
+              "relation": "QAX: Whois email to domain"
+            }
+          ]
+        },
+        {
+          "id": "f6bf8088338180e1bd8f8fb878798627efb96ec2547fea4800983a2af346a853",
+          "type": "file",
+          "relation": "VT: domain to downloaded file"
+        },
+        {
+          "id": "f3ca5bf5696f6a54f11eaee98e43d0d3604b4d0a62d59b03d1fd65f25f7779e4",
+          "type": "file",
+          "relation": "VT: domain to downloaded file"
+        },
+        {
+          "id": "78342a0905a72ce44da083dcb5d23b8ea0c16992ba2a82eece97e033d76ba3d3",
+          "type": "file",
+          "relation": "VT: domain to downloaded file"
+        },
+        {
+          "id": "86.106.93.230",
+          "type": "ip_address",
+          "relation": "VT: domain to resolution ip"
+        }
+      ]
+    }
+  ]
+}
