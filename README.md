@@ -1,4 +1,4 @@
-# IOC Explorer - Explore IOCs across multiple sources in iterative way
+# IOC Explorer - Explore IOCs in iterative way
 
 ## Introduction
 
