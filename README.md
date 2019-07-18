@@ -4,7 +4,7 @@
 
 ## Introduction
 
-threat hunting
+Indicator of Compromise (IOC) threat hunting
 
 problem
 
@@ -40,15 +40,15 @@ Each threat intelligence has its own but different settings. However, API key is
 
 Currently, 4 IOC types are supported, namely as followings,
 
-- email address
-- file hash(MD5/SHA1/SHA256)
-- ip address
-- domain name
+- email address (ioc_type='email')
+- file hash (ioc_type='file') Note: md5/sha1/sha256 are supported
+- ip address (ioc_type='ip_address')
+- domain name (ioc_type='domain')
 
 CSV file (by default, ./ioc.csv) is the place to input IOC for query. The CSV file has following format for data,
 
 ```
-IOC_type, IOC Value
+IOC_type, IOC_value
 ```
 
 For example,
@@ -62,9 +62,11 @@ ip_address, 192.99.142.235
 
 ### Output Result
 
+After querying multiple threat intelligence sources, IOC Explorer will collect all returned IOCs and output them in a well-organized way.
 
+This tool supports two output formats: plain-text and JSON.
 
-Format: TXT and JSON
+IOCs in plain-text is organized in tree style, like followings:
 
 ```
 AnyNode(id='373192510@qq.com', type='email')
@@ -93,24 +95,37 @@ AnyNode(id='373192510@qq.com', type='email')
 │   │   └── AnyNode(id='fb7595b2d6f1cc89cca75ec06186c228274e95fb6c3e233e8de2e804284ab8c1', relation='VT: IP to downloaded file', type='file')
 ```
 
-Sample
-There are some sample results in './samples' directory for reference.
+Default output directory is './results'. Filename follows this naming rule: {ioc_value}_depth_{depth_value}_{timestamp}, like '192.99.142.235_depth_3_201907171110.txt'
+
+More sample results are given in './samples' directory for reference.
 
 ## Threat Intelligence Sources
 
-VirusTotal
+A plenty of TI sources exist in cybersecurity field. As a start, IOC Explorer supports following sources:
 
-QiAnXin
+- VirusTotal, both public and private data available
+- QiAnXin, only private data
 
-Add your own data source
+A summary of IOC relations is following,
+
+| Source     | Type               | Relation        | Explanation                                     |
+| ---------- | ------------------ | --------------- | ----------------------------------------------- |
+| VirusTotal | Public and private | Ip -> file      | Files downloaded from the IP address            |
+| VirusTotal | Public and private | Domain -> file  | Files downloaded from the domain                |
+| VirusTotal | Public and private | Domain -> ip    | DNS resolutions for the domain                  |
+| VirusTotal | Public and private | File -> ip      | IP addresses contacted by the file              |
+| VirusTotal | Public and private | File -> domain  | Domains contacted by the file                   |
+| VirusTotal | Public and private | File -> file    | Files that executed the file                    |
+| QiAnXin    | Private            | Domain -> ip    | DNS resolutions (A record) for the domain       |
+| QiAnXin    | Private            | Domain -> email | Registrant email for the domain in Whois record |
+| QiAnXin    | Private            | Email -> domain | Domain names registered in the same email       |
+| QiAnXin    | Private            | File -> ip      | IP addresses contacted by the file              |
+| QiAnXin    | Private            | File -> domain  | Domains contacted by the file                   |
+
+You can can contact me for public available sources. Or you add your private sources by yourself.
 
 ## Future Plan
 
-Challenges
+During tests, some known good IOCs (like CDN ip addresses) are listed results. If there is a tag attached to the IOCs, that would bring additional hints for analysis. But such data enrichment requires more reliable data sources. Searching data sources is one (probably long-term) item of future plan.
 
-Add tags
-
-Known Bad, Known White, 
-
-Your ideas or suggestions are appreciated
-lion.gu@gmail.com
+Any ideas or suggestions are appreciated, and feel free to contact me: lion.gu@gmail.com
