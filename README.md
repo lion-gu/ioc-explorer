@@ -4,17 +4,9 @@
 
 ## Introduction
 
-Indicator of Compromise (IOC) threat hunting
+Correlating Indicator of Compromise (IOC) is a key part of incident investigation even threat hunting. Finding one IP address hosting several known malicious files would help SOC teams to implement more effective countermeasure by blocking that IP address. However, building a correlation usually means a lot of manual work, like searching multiple IOCs across different threat intelligence sources (community sources or private sources). Sometimes, correlation can only be found after several iterative queries. 
 
-problem
-
-multiple sources: community sources or paid sources
-
-repeat input
-
-random choose
-
-major advantage
+IOC Explorer aims to execute iterative queries across multiple threat intelligence sources automatically. It may assist security analyst to find more clues for investigation.
 
 ## Quick Start
 
