@@ -18,26 +18,32 @@ major advantage
 
 ## Quick Start
 
-1.
+1. Open config.ini file, and type in your API Key of VirusTotal or QiAnXin_TI section
+2. Open ioc.csv file, and type in your query IOC (eg., 'domain, xnz.freetzi.com')
+3. Run the tool in command line
+```
+$python explorer.py
+```
+4. Go to './results' directory to check your query result
 
 ## Usage in Details
 
-### Configuration
+### Initial Configuration
 
-ini file
+There are some settings to configure before first run. Basiclly, all settings stored in 'config.ini' file can be splitted into two categories: query behavior setting and threat intelligence setting.
 
-depth
+'depth' setting in 'general' section is an important query behavior setting. It defines the times of iterative queries, which will query intelligence sources based on IOCs returned on previous queries. Default setting is 'depth=3'. If user increases the value, the tool carries additional queries on previous returned IOCs. 
 
-API key
+Each threat intelligence has its own but different settings. However, API key is the most common setting for intelligence sources, which is also required.
 
 ### Input IOC
 
 Currently, 4 IOC types are supported, namely as followings,
 
-- email
+- email address
 - file hash(MD5/SHA1/SHA256)
 - ip address
-- domain names
+- domain name
 
 CSV file (by default, ./ioc.csv) is the place to input IOC for query. The CSV file has following format for data,
 
