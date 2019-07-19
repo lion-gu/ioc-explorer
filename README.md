@@ -1,4 +1,4 @@
-# IOC Explorer - Explore IOCs in iterative way
+# IOC Explorer - Explore IOCs Automatically
 
 ![illustration](pics/illustration.png)
 
