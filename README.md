@@ -8,6 +8,15 @@ Correlating Indicator of Compromise (IOC) is a key part of incident investigatio
 
 IOC Explorer aims to execute iterative queries across multiple threat intelligence sources automatically. It may assist security analyst to find more clues for investigation.
 
+## Requirements
+
+IOC Explorer is written in Python 3. It is *not* tested in other Python versions. 
+
+Please make sure you have installed following libraries prior to start:
+
+1. requests  2.20.1
+2. anytree 2.4.3
+
 ## Quick Start
 
 1. Open config.ini file, and type in your API Key of VirusTotal or QiAnXin_TI section
