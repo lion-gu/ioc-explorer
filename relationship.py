@@ -309,7 +309,7 @@ def qax_domain_to_ip(parent):
 
     Example: xnz.freetzi.com
 
-    https://wiki.qianxin-inc.cn/display/360JSYJ/flint
+    https://wiki.example.cn/display/360JSYJ/flint
 
     """
 
@@ -363,7 +363,7 @@ def qax_domain_to_email(parent):
 
     Example: freetzi.com
 
-    https://wiki.qianxin-inc.cn/display/360JSYJ/detail
+    https://wiki.example.cn/display/360JSYJ/detail
 
     """
 
@@ -409,7 +409,7 @@ def qax_email_to_domain(parent):
 
     Example: 373192510@qq.com
 
-    https://wiki.qianxin-inc.cn/display/360JSYJ/reverse
+    https://wiki.example.cn/display/360JSYJ/reverse
 
     """
 
@@ -455,7 +455,7 @@ def qax_file_to_ip(parent):
 
     Example: e889544aff85ffaf8b0d0da705105dee7c97fe26
 
-    https://wiki.qianxin-inc.cn/display/360JSYJ/reverse
+    https://wiki.example.cn/display/360JSYJ/reverse
 
     """
 
@@ -503,7 +503,7 @@ def qax_file_to_domain(parent):
 
     Example: 46173adc26721fb54f6e1a1091a892d4
 
-    https://wiki.qianxin-inc.cn/display/360JSYJ/reverse
+    https://wiki.example.cn/display/360JSYJ/reverse
 
     """
 
